@@ -9,13 +9,6 @@ const App = () => {
       .then(data => setTodos(data))
   }, [])
 
-
-
-  // {
-  //   todos.map(todo => console.log(todo))
-  // }
-
-
   return (
 
     <div>
@@ -29,19 +22,4 @@ const App = () => {
 };
 
 
-
-
 export default App;
-  // return (
-  //       <div>
-  //           <Header></Header>
-  //           <h2 className='heading'>Total Countries:{countries.length}</h2>
-  //           <div className='country-container'>{countries.map(country =>
-
-  //               <Country country={country}
-  //                   key={country.cca3}
-  //               ></Country>
-  //           )}</div>
-  //           <Footer></Footer>
-  //       </div>
-  //   );
