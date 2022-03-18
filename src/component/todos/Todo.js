@@ -5,7 +5,7 @@ const Todo = (props) => {
     return (
         <div style={todo}>
             <h2>{props.todo.id}</h2>
-            <h3>userId: {props.userId}</h3>
+            <h3>userId: {props.todo.userId}</h3>
             <p>title:{props.todo.title}</p>
         </div>
     );
